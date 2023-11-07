@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="name" placeholder="name">
+    <input type="text" id="age" placeholder="age">
+    <input type="text" id="address" placeholder="address">
+    <button onclick="getUser()">save</button>
+    <div id="error"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        async function getUser() {
+            let name = document.getElementById("name").value;
+            let age = document.getElementById("age").value;
+            let address = document.getElementById("address").value;
+            let data = {
+                name: name,
+                age: age,
+                address: address
+            };
+
+            try {
+             let response = await axios.get('http://localhost:3000/test4')
+             let checkData = response.data 
+             let require = checkData.some(item =>
+             item.name === data.name 
+              );
+              if (require) {
+                document.getElementById("error").innerText=`Dữ liệu trùng lặp không thể lưu`
+              } else {
+                await axios.post('http://localhost:3000/test4', data)
+                document.getElementById("error").innerText=`Lưu thành công`
+              }
+            } catch (error) {
+                console.log(error);
+            }
+        }
+    </script>
+</body>
+</html>

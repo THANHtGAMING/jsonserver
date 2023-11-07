@@ -1,0 +1,28 @@
+{
+  "test4": [
+    {
+      "name": "minh tuan",
+      "age": "20 ",
+      "address": "đồng nai",
+      "id": 1
+    },
+    {
+      "name": "minh tuấn ",
+      "age": "20 ",
+      "address": "đồng nai",
+      "id": 2
+    },
+    {
+      "name": "minh tuấn",
+      "age": "19",
+      "address": "hà nội",
+      "id": 3
+    },
+    {
+      "name": "minh tài",
+      "age": "20",
+      "address": "đồng nai",
+      "id": 4
+    }
+  ]
+}
