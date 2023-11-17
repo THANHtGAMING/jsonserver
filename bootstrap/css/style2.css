@@ -1,0 +1,151 @@
+.container-fluid {
+  background-color: black;
+}
+.container-fluid .container .cold {
+  display: flex;
+  padding: 20px 0;
+}
+.container-fluid .container .cold img {
+  object-fit: contain;
+}
+.container-fluid .container .cold span {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.container-fluid .container .cold ul {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+.container-fluid .container .cold ul li {
+  list-style: none;
+  color: #fff;
+}
+.container-fluid .container .row .col-xl-6 {
+  margin-top: 100px;
+}
+.container-fluid .container .row .col-xl-6 h3 {
+  color: #fff;
+  font-weight: 700;
+}
+.container-fluid .container .row .col-xl-6 p {
+  color: #fff;
+  margin: 25px 0;
+}
+.container-fluid .container .row .col-xl-6 a {
+  padding: 12px 35px;
+  background-color: #A392E8;
+  color: #fff;
+  border-radius: 32px;
+  border: none;
+  font-size: 16px;
+}
+.container-fluid .container .row .col-xl-6 i {
+  margin-top: 30px;
+  margin-right: 15px;
+  color: #fff;
+  gap: 20px;
+  margin-left: 10px;
+}
+.container-fluid .container .row .col-xl-6 span {
+  color: #fff;
+}
+
+.container-2 {
+  background-color: #F3F4FB;
+  padding: 30px;
+}
+.container-2 .container .row .col-lg-4 p {
+  font-size: 14px;
+}
+.container-2 .container .row .col-lg-4 h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+.container-2 .container .row .col-lg-4 h2 span {
+  color: #A392E8;
+}
+.container-2 .container .row .col-lg-4 h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.container-2 .container .row .col-lg-4 img {
+  width: 55px;
+  height: 55px;
+}
+
+.container .row .col-xl-6 {
+  margin-top: 100px;
+}
+.container .row .col-xl-6 h2 {
+  font-weight: 700;
+}
+.container .row .col-xl-6 h2 span {
+  color: #CA9EFF;
+}
+.container .row .col-xl-6 p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.container-6 {
+  background-image: linear-gradient(to right, #F3F4FB 50%, #fff 50%);
+  padding: 75px;
+}
+.container-6 .container .row .col-xl-5 {
+  margin-top: 100px;
+}
+.container-6 .container .row .col-xl-5 h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.container-6 .container .row .col-xl-5 h3 span {
+  color: #CA9EFF;
+}
+.container-6 .container .row .col-xl-3 .card .card-body h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.container-6 .container .row .col-xl-3 .card img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.container-5 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container-10 {
+  background-color: #000000;
+  margin-top: 20px;
+}
+.container-10 .container {
+  padding: 25px;
+}
+.container-10 .container h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.container-10 .container p {
+  color: #fff;
+  font-size: inherit;
+}
+.container-10 .container span {
+  color: #fff;
+  margin-left: 10px;
+}
+.container-10 .container ul li {
+  color: #fff;
+  font-size: inherit;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style2.css.map */
